@@ -1,6 +1,9 @@
 package a4;
 
 import java.util.Scanner;
+
+import javax.sound.sampled.SourceDataLine;
+
 import java.util.ArrayDeque;
 import java.io.StringReader;
 
@@ -57,5 +60,10 @@ public class Tokenizer {
       ArrayDeque<Object> queue = readTokens(args[0]);
       System.out.println(queue);
     }
-  }
+
+  String x = "22 + 3 - (7 *8)";
+  ArrayDeque<Object> queue = Tokenizer.readTokens(x);
+  System.out.println(queue);
+}
+
 }

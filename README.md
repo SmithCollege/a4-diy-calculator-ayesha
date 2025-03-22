@@ -12,5 +12,10 @@ Any references used besides JavaDoc and course materials:
 
 Reflection on your experience with this assignment:
 
+This assignment was a bit challenging for me. The postfix.java part was straightforward to understand. However, I struggled with the infix portion. I spent a long time trying to understand how infix and postfix expressions differ and how to approach them.
+I wasn’t quite sure how to get started with infix, but I did my best to figure it out. One part that confused me, in particular, was handling the exponent operator in infix expressions. That took some extra time to understand, but I tried to work around it.
+To help myself, I read the Wikipedia page on postfix notation, and that helped me understand the concept more clearly.
+
+
 This assignment does lend itself to more visual prototyping, so please feel free to go this route. Are you including slides, pseudocode, comments, or something else?
 
